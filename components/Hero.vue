@@ -14,13 +14,13 @@
           </div>
         </div>
         <div class="col-12 col-lg-11 mx-auto">
-          <p class="hero__description text-center text px-4">
+          <p class="hero__description text-center text">
               Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
           </p>
         </div>
       </div>
     </div>
-    <BtnFylo />
+      <BtnFylo />
   </section>
 </template>
 

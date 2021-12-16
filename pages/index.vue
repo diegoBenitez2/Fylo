@@ -4,6 +4,7 @@
     <Hero />
     <Features />
     <Productive />
+    <Comments />
   </main>
 </template>
 
