@@ -2,13 +2,13 @@
   <article class="user-information mt-4">
     <div class="d-flex align-items-center">
       <figure class="user-information__avatar-container m-0">
-        <img :src="user.avatar" :alt="`${user.name} avatar`" class="user-information__avatar" />
+        <img :src="require(`~/assets/images/${user.avatar}`)" :alt="`${user.name} avatar`" class="user-information__avatar" />
       </figure>
         <div class="ml-2">
           <h6 class="user-information__name  title mb-1">
             {{ user.name }}
           </h6>
-          <p class="user-information__rol text">
+          <p class="user-information__rol m-0 text">
             {{ user.rol }}
           </p>
         </div>
@@ -34,12 +34,12 @@
     &__avatar-container {
       width: 30px;
       height: 30px;
-      border-radius: 50%;
     }
     &__avatar {
       width: 100%;
       height: 100%;
       object-fit: contain;
+      border-radius: 50%;
     }
     &__name {
       font-size: .8rem;

@@ -1,13 +1,11 @@
 <template>
   <section class="comments pt-5 mt-5">
     <div class="container d-flex flex-column justify-content-center position-relative">
-      <div class="row justify-content-center comments__list-comments">
-          <div class="col-auto col-md-4 position-relative" v-for="(comment, index) in comments" :key="index">
-            <CommentsCard :comment="comment" />
-          </div>
+      <div class="d-flex flex-wrap justify-content-center comments__list-comments">
+            <CommentsCard v-for="(comment, index) in comments" :key="index" :comment="comment" />
       </div>
       <div class="row">
-        <div class="col-12 col-lg-9 mx-auto">
+        <div class="col-12 col-lg-8 mx-auto">
           <div class="comments__form text-center px-3 px-md-5">
             <h2 class="title comments__title text-center mb-4">
               Get early access today
@@ -43,7 +41,7 @@
             user: {
               name: 'Satish Patel',
               rol: 'Founder & CEO, Huddle',
-              avatar: '@/assets/images/profile-1.jpg',
+              avatar: 'profile-1.jpg',
             },
             
           },
@@ -52,7 +50,7 @@
             user: {
               name: 'Bruce McKenzie',
               rol: 'Founder & CEO, Huddle',
-              avatar: '@/assets/images/profile-2.jpg',
+              avatar: 'profile-2.jpg',
             },
             
           },
@@ -61,7 +59,7 @@
             user: {
               name: 'Iva Boyd',
               rol: 'Founder & CEO, Huddle',
-              avatar: '@/assets/images/profile-3.jpg',
+              avatar: 'profile-3.jpg',
             },
             
           },
@@ -73,8 +71,9 @@
 
 <style lang="scss" scoped>
   .comments {
+    margin-bottom: -110px;
     &__list-comments{
-      margin: 0px 0 100px;
+      margin: 0px 0 130px;
       &::before {
         content: '';
         display: block;

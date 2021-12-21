@@ -25,7 +25,7 @@
     box-shadow: 3px 6px 6px rgba($color: #000, $alpha: .3);
     padding: 30px 20px 10px;
     border-radius: .3rem;
-    margin: 10px 0;
+    margin: 10px 20px;
     max-width: 280px ;
     &__comment {
       font-size: .8rem;

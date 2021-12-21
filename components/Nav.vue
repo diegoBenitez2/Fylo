@@ -1,8 +1,8 @@
 <template>
   <ul class="nav justify-content-end">
-    <li class="nav-item nav__item "><a href="" class="nav-link active text"> Features</a></li>
-    <li class="nav-item nav__item"><a href="" class="nav-link text">Team</a></li>
-    <li class="nav-item nav__item"><a href="" class="nav-link text">Sign In</a></li>
+    <li class="nav-item nav__item "><a href="#" class="nav-link active text"> Features</a></li>
+    <li class="nav-item nav__item"><a href="#" class="nav-link text">Team</a></li>
+    <li class="nav-item nav__item"><a href="#" class="nav-link text">Sign In</a></li>
   </ul>
 </template>
 

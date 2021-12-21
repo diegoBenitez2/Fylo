@@ -44,6 +44,6 @@
 
 <style lang="scss" scoped>
   .features {
-    margin-top: 40px;
+    margin: 130px 0 100px;
   }
 </style>

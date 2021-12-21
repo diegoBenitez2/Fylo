@@ -5,6 +5,7 @@
     <Features />
     <Productive />
     <Comments />
+    <Footer/>
   </main>
 </template>
 
